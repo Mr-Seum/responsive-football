@@ -1,3 +1,46 @@
-h1{
-    color: powderblue;
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* Utilities and Common Styles  */
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Hero Section  */
+
+
+.hero-section{
+    height: 677px;
+    width: 100%;
+    background-color: #2D25A0;
+    
+}
+.hero-details{
+    width: 100%;
+    display: flex;
+    padding: 207px auto 240px 156px;
+    
+}
+.left-details{
+    width: 50%;
+}
+.right-details{
+    width: 50%;
+}
+.right-details img{
+    width: 70%;
+}
+.left-details h1{
+    color: white;
+    font-size: 64px;
+    line-height: 80px;
+}
+.left-details .btn{
+    background-color: #E02C6D;
+}
+.left-details .btn a{
+    text-decoration: none;
+    color: white;
 }
