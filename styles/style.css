@@ -31,6 +31,9 @@ body{
     font-weight: 500;
     padding-right: 36px;
 }
+.menu-right .btn{
+    margin-left: 0;
+}
 
 
 .hero-section{
@@ -65,8 +68,8 @@ body{
     position: absolute;
     height: 80px;
     width: 80px;
-    top: 115px;
-    right: 500px;
+    top: 19%;
+    right: 65%;
     transition: transform 8s ease-in-out;
 }
 .hero-details:hover #football{
@@ -106,9 +109,6 @@ body{
 
 /* Players Section  */
 .players{
-    width: 1050px;
-    margin-left: auto;
-    margin-right: auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 27px;
